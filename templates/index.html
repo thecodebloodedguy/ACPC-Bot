@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Flask Chatbot</title>
+</head>
+<body>
+    <h1>Flask Chatbot</h1>
+    <form action="/" method="post">
+        <input type="text" name="user_input" placeholder="Enter your message" />
+        <input type="submit" value="Send" />
+    </form>
+    <div>
+        {% if response %}
+            <p>{{ response }}</p>
+        {% endif %}
+    </div>
+</body>
+</html>
