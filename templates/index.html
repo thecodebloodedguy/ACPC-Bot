@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Flask Chatbot</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        .chat-container {
+            max-width: 500px;
+            margin: 0 auto;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            padding: 10px;
+            overflow-y: scroll;
+            max-height: 400px;
+        }
+
+        .user-message {
+            background-color: #e6f2ff;
+            padding: 8px;
+            border-radius: 5px;
+            margin-bottom: 5px;
+        }
+
+        .bot-message {
+            background-color: #f0f0f0;
+            padding: 8px;
+            border-radius: 5px;
+            margin-bottom: 5px;
+        }
+
+        .user-input {
+            width: 100%;
+            padding: 5px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Flask Chatbot</h1>
+    <div class="chat-container">
+        {% for message in chat_history %}
+            {% if message["sender"] == "user" %}
+                <div class="user-message">{{ message["content"] }}</div>
+            {% else %}
+                <div class="bot-message">{{ message["content"] }}</div>
+            {% endif %}
+        {% endfor %}
+    </div>
+    <form action="/" method="post">
+        <input type="text" name="user_input" placeholder="Enter your message" class="user-input" />
+        <input type="submit" value="Send" style="display: none;" />
+    </form>
+</body>
+</html>

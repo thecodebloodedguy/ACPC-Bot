@@ -1,0 +1,123 @@
+{
+    "intents": [
+      {
+        "tag": "greeting",
+        "patterns": ["Hi", "Hello", "Hey"],
+        "responses": ["Hello!", "Hi there!", "Hey, how can I help you?"]
+      },
+      {
+        "tag": "whatsup",
+        "patterns": [
+            "Whats up",
+            "Wazzup",
+            "sup"
+        ],
+        "responses": [
+            "All good..What about you?"
+        ]
+    },
+    {
+        "tag": "age",
+        "patterns": [
+            "how old are you","when were you made","what is your age"
+        ],
+        "responses": [
+            "I was made in 2023, if that's what you are asking!"
+        ]
+    },
+    {
+        "tag": "nicetty",
+        "patterns": [
+            "it was nice talking to you",
+            "good talk"
+        ],
+        "responses": [
+            "It was nice talking to you as well! Come back soon!"
+        ]
+    },
+    {
+        "tag": "suggest",
+        "patterns": [
+            "you are useless","useless","suggest","suggestions","you are bad"
+        ],
+        "responses": [
+            "I apologise for that","I am sorry I was not helpful to you"
+        ]
+    },
+      {
+        "tag": "how_are_you",
+        "patterns": ["How are you?", "How are you doing?"],
+        "responses": ["I'm good, thank you!", "Feeling great! How about you?"]
+      },
+      {
+        "tag": "noanswer",
+        "patterns": ["!","@","#","$"],
+        "responses": [
+            "Sorry, can't understand you",
+            "Please give me more info",
+            "Not sure I understand"
+        ]
+    },
+    {
+        "tag": "jokes",
+        "patterns": [
+            "Tell me a joke",
+            "Joke",
+            "Make me laugh"
+        ],
+        "responses": [
+            "A perfectionist walked into a bar...apparently, the bar wasn't set high enough",
+            "I ate a clock yesterday, it was very time-consuming",
+            "Never criticize someone until you've walked a mile in their shoes. That way, when you criticize them, they won't be able to hear you from that far away. Plus, you'll have their shoes.",
+            "The world tongue-twister champion just got arrested. I hear they're gonna give him a really tough sentence.",
+            "I own the world's worst thesaurus. Not only is it awful, it's awful.",
+            "What did the traffic light say to the car? \"Don't look now, I'm changing.\"",
+            "What do you call a snowman with a suntan? A puddle.",
+            "How does a penguin build a house? Igloos it together",
+            "I went to see the doctor about my short-term memory problems - the first thing he did was make me pay in advance",
+            "As I get older and I remember all the people I've lost along the way, I think to myself, maybe a career as a tour guide wasn't for me.",
+            "o what if I don't know what 'Armageddon' means? It's not the end of the world."
+        ]
+    },
+      {
+        "tag": "what_do_you_do",
+        "patterns": [
+          "What do you do?",
+          "What is your function?",
+          "How can you help me?",
+          "What are you capable of?",
+          "Who are you?"
+        ],
+        "responses": [
+          "I will help you with your admission queries.",
+          "I help solve admission queries.",
+          "I can provide information and answer questions related to admissions.",
+          "I am capable of assisting with queries about educational admissions."
+        ]
+      },
+      {
+        "tag": "who_created_you",
+        "patterns": [
+          "Who created you?",
+          "Who wrote your code?",
+          "Who developed you?",
+          "Who is your owner?"
+        ],
+        "responses": [
+          "I was created by Government of Gujarat.",
+          "I was developed at KCG."
+        ]
+      },
+      {
+        "tag":"name",
+        "patterns":["What is your name","What can I call you"],
+        "responses":["I am yet to be named","I don't have a name"]
+      },
+      {
+        "tag": "default",
+        "patterns": ["see ya!", "bye", "goodbye","take care!"],
+        "responses": ["Goodbye!", "Take care!", "See you later!"]
+      }
+    ]
+  }
+  
