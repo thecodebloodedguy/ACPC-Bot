@@ -1,0 +1,1563 @@
+{
+    "intents": [
+      {
+        "tag": "apply_time",
+        "patterns": [
+          "When to apply for ACPC courses or registration?",
+          "What is the right time to apply for ACPC courses",
+          "When should I apply for ACPC courses or",
+          "When should I register for ACPC courses",
+          "I want to register or apply for ACPC courses",
+          "Should I apply or register for ACPC courses"
+        ],
+        "responses": [
+          "For Diploma courses, apply after 10th, and for Bachelor's courses apply after 12th, and for Master's courses apply after your Bachelor's degree is completed."
+        ]
+      },
+      {
+        "tag": "acpc_info",
+        "patterns": [
+          "What is ACPC?",
+          "Define ACPC",
+          "What is full form of ACPC?",
+          "What does ACPC stand for?",
+          "Tell me something about ACPC"
+        ],
+        "responses": [
+          "ACPC stands for Admission Committee for Professional Courses. Every year ACPC invites applications for admission to various courses like engineering, MBC, MCA, Diploma to Degree Engineering, Diploma to Degree Pharmacy, M.Arch, M.Plan, B.Arch, etc. Visit the official website of ACPC for more details."
+        ]
+      },
+      {
+        "tag": "registration_info",
+        "patterns": [
+          "How to register for ACPDC or Diploma courses?",
+          "What is the method to register for ACPDC or Diploma courses?",
+          "Ways to register for ACPDC or Diploma courses",
+          "I want to register or apply for ACPDC or Diploma courses"
+        ],
+        "responses": [
+          "Please visit https://gujdiploma.admissions.nic.in/ for further information about ACPDC or Diploma courses registration."
+        ]
+      },
+      {
+        "tag": "registration_charges",
+        "patterns": [
+          "What are the registration charges?",
+          "Fees for registration",
+          "What is the amount to pay for the registration"
+        ],
+        "responses": [
+          "The registration charges are as follows: Degree Engineering-350, Degree Pharmacy-350, Diploma Pharmacy-350, Diploma to Degree Engineering-350, Diploma to Degree Pharmacy-350, MBA-500, MCA-500, Master of Engineering-500, Master of Pharmacy-500, Degree Architecture-350."
+        ]
+      },
+      {
+        "tag": "single_registration",
+        "patterns": [
+          "Do I need to register differently for different courses?",
+          "Is different registrations required for different courses?",
+          "Do multiple courses require multiple registrations?"
+        ],
+        "responses": [
+          "No, only a single registration is required for all the available courses."
+        ]
+      },
+      {
+        "tag": "required_documents",
+        "patterns": [
+          "What documents are needed or required or to register or create a profile?",
+          "Is photograph required to register or create a profile?",
+          "Is birthdate proof required to register or create a profile?",
+          "Is School Leaving Certificate required to register or create a profile?",
+          "Is Aadhar Card required to register or create a profile?",
+          "Is Marksheet required to register or create a profile?"
+        ],
+        "responses": [
+          "You will need the following documents for registration: Passport size photograph, Birth Date proof, School Leaving Certificate, Aadhar Card, HSC Marksheet, Valid Income Certificate, Valid Caste Certificate, Valid In-servicemen category, Valid Ex-servicemen category."
+        ]
+      },
+      {
+        "tag": "documents_diploma_to_degree",
+        "patterns": [
+          "What documents do I need for Diploma to Degree Engineering or Diploma to Degree Pharmacy?"
+        ],
+        "responses": [
+          "You will need the following documents for Diploma to Degree Engineering or Pharmacy: Provisional Eligibility Certificate of Diploma course, Grade History."
+        ]
+      },
+      {
+        "tag": "documents_b_arch",
+        "patterns": [
+          "What documents do I need for B.Arch?",
+          "Important documents for B.Arch"
+        ],
+        "responses": [
+          "You will need the following documents for B.Arch admission: Latest HSC Mark Sheet, Valid NATA-2023 Score card."
+        ]
+      },
+      {
+        "tag": "registration_fees",
+        "patterns": [
+          "What are the fees or money to be paid for registration at the cyber space centres?",
+          "How much do cyber space centre charge for registration?",
+          "Do I need to pay at cyber space centre for registration?"
+        ],
+        "responses": [
+          "No fees are required to be paid for registration at the cyber space centres."
+        ]
+      },
+      {
+        "tag": "online_registration",
+        "patterns": [
+          "Can I do online registration from home?",
+          "Can I apply online?",
+          "Can I apply via website?"
+        ],
+        "responses": [
+          "Yes, you can do online registration from your home using the official website of ACPC within the specified time limit."
+        ]
+      },
+      {
+        "tag": "offline_registration",
+        "patterns": [
+          "Can I register offline manually?",
+          "I want to apply offline,can I?",
+          "Is it possible to apply offline for registration?",
+          "Is there offline registration?"
+        ],
+        "responses": [
+          "No, only online registration is available. There is no offline registration process."
+        ]
+      },
+      {
+        "tag": "edit_registration_details",
+        "patterns": [
+          "How to edit registration details before and after confirming?",
+          "Can I edit registration details?",
+          "I want to edit details after confirming?",
+          "If I have confirmed but want to edit details, can I?"
+        ],
+        "responses": [
+          "You can edit your registration details online before confirming the registration. After confirmation, you need to request ACPC through mail to edit the details."
+        ]
+      },
+      {
+        "tag": "valid_income_certificate",
+        "patterns": [
+          "If the income certificate is in the name of the mother or mom or mummy or maa, will it be valid?",
+          "Is my income certificate valid?"
+        ],
+        "responses": [
+          "In case of the death of the father, the income certificate in the mother's name is valid; otherwise, it is not valid."
+        ]
+      },
+      {
+        "tag": "certificate_of_caste",
+        "patterns": [
+          "Where can I get a certificate of caste?",
+          "I don't have a caste certificate"
+        ],
+        "responses": [
+          "You can get a certificate of caste from the District Collector, Deputy Collector, Assistant Collector, Social Welfare Officer/District Development Officer/Dy. District Development Officer/Taluka Development Officer, Mamlatdar."
+        ]
+      },
+      {
+        "tag": "certificate_of_income",
+        "patterns": [
+          "Where can I get a certificate of income?",
+          "I don't have an income certificate"
+        ],
+        "responses": [
+          "You can get a certificate of income from the District Collector, Deputy Collector, Assistant Collector, Prant Officer, Mamlatdar, DDO, TDO."
+        ]
+      },
+      {
+        "tag": "certificate_of_physically_handicapped",
+        "patterns": [
+          "Where can I get a certificate of physically handicapped?",
+          "I don't have certificate of physically handicapped"
+          
+        ],
+        "responses": [
+          "You can get a certificate of physically handicapped from a Government Medical officer countersigned by Civil surgeon."
+        ]
+      },
+      {
+        "tag": "certificate_of_inservice_men",
+        "patterns": [
+          "Where can I get a certificate of In-service or inservice or in service men?",
+          "I don't have certificate of in-service or in service men"
+        ],
+        "responses": [
+          "You can get a certificate of In-service or inservice or in service men from the Commanding officer of the unit where serving."
+        ]
+      },
+      {
+        "tag": "certificate_of_exservicemen",
+        "patterns": [
+          "Where can I get a certificate of ex-service or exservice or ex service men?",
+          "I don't have certificate of exservice or ex service men"
+        ],
+        "responses": [
+          "You can get a certificate of ex-service or exservice or ex service men from the Director, Sainik Welfare Board, Gujarat State, or the District Sainik Welfare Officer."
+        ]
+      },
+      {
+        "tag": "mismatched_name_documents",
+        "patterns": [
+          "What to do if the name in School LC and caste certificate or income certificate is not matching?",
+          "What if my name in documents don't match?",
+          "My name dosen't match in certificates, help me",
+          "my certificate is incorrect, how to get it right?",
+          "my certificate is wrong, what to do?",
+          "what is the procedure to get certificate correct?"
+          
+        ],
+        "responses": [
+          "You should get the  certificates corrected from the issuing authority."
+        ]
+      },
+      {
+        "tag": "change_registered_category",
+        "patterns": [
+          "How can I change the registered category?",
+          "I filled the wrong category, what to do?",
+          "how to change category?",
+          "can I change category?",
+          "Can I change category before confirming my registration?",
+          "Can I change category after confirming my registration?",
+          "how to change category again?"
+        ],
+        "responses": [
+          "Reach any Help Centre with the original as well as photocopy of the certificate within the stipulated time limit stipulated by ACPC."
+        ]
+      },
+      {
+        "tag": "reservation_for_daman_diu",
+        "patterns": [
+          "Can I apply for reservation if I am from DAMAN & DIU?", 
+          "Can I apply for reservation if I am or from DNH or Dadra and Nagar Haveli?"
+        ],
+        "responses": [
+          "Yes, if you are a Domicile of Gujarat, you are eligible for 5% seats of Government and Grant-in-Aid institutions."
+        ]
+      },
+      {
+        "tag": "eligibility_for_reservation_gujarat_outside",
+        "patterns": [
+          "If I have studied outside Gujarat, can I apply for admission through ACPC for Diploma Pharmacy or Pharmacy?",
+          "Can I apply if I am from outside of Gujarat?",
+          "I am a non Gujarat resident,can I apply for admission"
+        ],
+        "responses": [
+          "No, but for exceptional cases, read rule 5(3) notification of Education Department of Government of Gujarat for Bachelor of Engineering and Technology."
+        ]
+      },
+      {
+        "tag": "benefits_of_reservation_outside_gujarat",
+        "patterns": [
+          "If I have studied outside Gujarat, can apply for  reservation?",
+          "Can a non resident of Gujarat apply for reservation?"
+        ],
+        "responses": [
+          "You can apply but you will be eligible for not less than 40% seats."
+        ]
+      },
+      {
+        "tag": "guardian_for_certificate",
+        "patterns": [
+          "If both parents are not alive, then who can act as a guardian for caste and income certificate?",
+          "Who can act as Guardian for cast certificate?",
+          "Who can act as Guardian for income certificate?",
+          "If the income certificate is in the name of the mother, will it be valid?",
+          "I have income certificate of my mother, will it be okay?",
+          "will mother's income certificate would work?",
+          "my father is expired , so will my mother's income certificate work?",
+          "my parents are divorced, will my mother's income certificate be valid?"
+        ],
+        "responses": [
+          "The Legal guardian can act as a guardian."
+        ]
+      },
+      {
+        "tag": "tfws_eligibility",
+        "patterns": [
+          "If I am applying for TFWS, am I considered for that particular category?"
+        ],
+        "responses": [
+          "Yes, subject to a valid income certificate issued by the competent authority."
+        ]
+      },
+      {
+        "tag": "admission_criteria_pharmacy",
+        "patterns": [
+          "What are the criteria for admission through ACPC for Degree Pharmacy course?",
+          "What are the criteria for admission through ACPC for Diploma Pharmacy"
+        ],
+        "responses": [
+          "Passed HSCE in Science Stream with Physics and Chemistry as compulsory subjects along with Mathematics / Biology/Bio-Technology or Technical Vocational as a Subject in the qualifying examination."
+        ]
+      },
+      {
+        "tag": "check_merit_rank",
+        "patterns": [
+          "How can I check my merit rank?",
+          "How to checl merit rank?"
+        ],
+        "responses": [
+          "Candidates can verify their rank by logging in to their module at the NIC website. Also, the same will be reflected in registration details, and candidates can also check the allotted rank on www.acpc-gujarat.gov.in."
+        ]
+      },
+      {
+        "tag": "college_and_branch_info",
+        "patterns": [
+          "Where can I get information about the various colleges and branches coming under ACPC?",
+          "Tell me about various colleges coming under ACPC",
+          "Tell me about various branches coming under ACPC"
+        ],
+        "responses": [
+          "Check the Information Booklet provided with PIN and from the website www.jacpcldce.in and www.gujacpc.nic.in."
+        ]
+      },
+      {
+        "tag": "number_of_choices",
+        "patterns": [
+          "How much or many choices one candidate can fill?",
+          "What are the maximum choices I can fill?",
+          "Is there a limit on choice filling?"
+        ],
+        "responses": [
+          "Candidates can fill all the choices of their liking."
+        ]
+      },
+      {
+        "tag": "reshuffling_report_at_college",
+        "patterns": [
+          "For reshuffling, do I need to report at the college?",
+          "Do I need to pay offline for reshuffling?"
+        ],
+        "responses": [
+          "No, candidates only have to pay after the online admission process."
+        ]
+      },
+    
+      {
+        "tag": "eligibility_scholarship_sc_st_sebc",
+        "patterns": [
+          "If an SC or ST or SEBC candidate gets admission under open category, will he be eligible for a scholarship from the govt?",
+          "Can I get scholarship in Open category if I am ST?",
+          "Can I get scholarship in Open category if I am SEBC?",
+          "Can I get scholarship in Open category if I am SC?"
+        ],
+        "responses": [
+          "Yes, they will be eligible."
+        ]
+      },
+      {
+        "tag": "nri_admission_procedure",
+        "patterns": [
+          "What is the procedure for admission for NRI or NRI sponsor candidate?",
+          "How to get admission in NRI quota?",
+          "How to apply for NRI Sponsor quota or admission?"
+        ],
+        "responses": [
+          "The procedure for admission for NRI or NRI sponsor candidates is the same as mentioned on the ACPC website"
+        ]
+      },
+      {
+        "tag": "update_result_after_rechecking",
+        "patterns": [
+          "How can I update my result if there is any change after rechecking?",
+          "Can I update my result if there is any change?",
+          "Can I update my Marksheets?"
+        ],
+        "responses": [
+          "Submit a photocopy of the mark sheet from the concern board of rechecking result at ACPC immediately within one week."
+        ]
+      },
+      {
+        "tag": "fee_structure_self_financed_institutes",
+        "patterns": [
+          "What is the fee structure of self-financed institutes?",
+          "Do SFI colleges have different fee structure?",
+          "What are the fees of Self-financed or self financed institutes or colleges?"
+        ],
+        "responses": [
+          "Refer Fee Regulatory Committee website www.frctech.ac.in.."
+        ]
+      },
+      {
+        "tag": "reporting_at_admitted_college",
+        "patterns": [
+          "After allotment, in how many days do we have to report at the admitted college?",
+          "When do I report to admitted college?",
+          "Do I have to report to admitted college?"
+        ],
+        "responses": [
+          "Report under 3 working days"
+        ]
+      },
+      {
+        "tag": "reservation_for_girls",
+        "patterns": [
+          "Is there any reservation or special quota for girls?",
+          "Do girls get special reservation quota?",
+          "Is there a different quota for girls?"
+        ],
+        "responses": [
+          "No"
+        ]
+      },
+      {
+        "tag": "availability_of_vacant_seats",
+        "patterns": [
+          "Where do I get information for the availability of vacant seats in various colleges?",
+          "How to know about vacant seats?"
+        ],
+        "responses": [
+          "Check after allotment of seat at each round and on the website www.jacpcldce.ac.in."
+        ]
+      },
+      {
+        "tag": "check_alternate_admission",
+        "patterns": [
+          "How can I check where else could I have got admission?",
+          "Where to check for other admission possibilities?"
+        ],
+        "responses": [
+          "From the cut-off marks details on the website after each round of seat allotment."
+        ]
+      },
+      {
+        "tag": "management_quota_admission_process",
+        "patterns": [
+          "What is the process for applying in Management Quota?",
+          "How to apply for MQ?",
+          "How to apply for Management Quota?",
+          "Can I apply for Management Quota?"
+        ],
+        "responses": [
+          "Please check the guidelines given by ACPC available on the website www.jacpcldce.ac.in."
+        ]
+      },
+      {
+        "tag": "eligibility_management_quota",
+        "patterns": [
+          "If I opt for management quota admission, am I still eligible for regular quota?"
+        ],
+        "responses": [
+          "Yes."
+        ]
+      },
+      {
+        "tag": "reshuffling_after_management_quota",
+        "patterns": [
+          "If I get admission in the management quota, can I go for reshuffling?",
+          "Is reshuffling allowed for Management Quota students?"
+        ],
+        "responses": [
+          "Yes"
+        ]
+      },
+      {
+        "tag": "confirm_allotted_seat",
+        "patterns": [
+          "How to confirm my allotted seat?",
+          "How to check for alloted seats?"
+        ],
+        "responses": [
+          "Candidates can verify allotment status in the result section."
+        ]
+      },
+      {
+        "tag": "be_admission_start_date",
+        "patterns": [
+          "When will the admission process for Degree Engineering start?",
+          "When will the registration process start?",
+          "When will the registration process for BE start?",
+          "When will the registration process for B.E. start?"
+        ],
+        "responses": [
+          "The process of registration for Degree Engineering is expected to start at the end of June."
+        ]
+      },
+      {
+        "tag": "be_admission_not_started",
+        "patterns": [
+          "Why has the admission process not started for Degree Engineering or BE or B.E.?",
+          "When will the admission process start for Degree Engineering BE?"
+        ],
+        "responses": [
+          "The examination of CBSE, ICSE, JEE(Main), and GUJCET maybe pending, students can register prior to the same."
+        ]
+      },
+      {
+        "tag": "be_pin_distribution",
+        "patterns": [
+          "Will there be any PIN distribution this time like previous?",
+          "Will I get a PIN?"
+        ],
+        "responses": [
+          "No, due to the current COVID-19 situation, the entire admission process will be online."
+        ]
+      },
+      {
+        "tag": "pay_registration_fees",
+        "patterns": [
+          "How to pay registration fees?",
+          "Method to pay registration fees",
+          "Can I pay registration fees online?"
+        ],
+        "responses": [
+          "After registration, the candidate needs to pay registration fees ONLINE through Credit Card/Net Banking/UPI interfaces."
+        ]
+      },
+      {
+        "tag": "be_registration_charges",
+        "patterns": [
+          "What are or is the registration charges or price for Degree Engineering or BE or B.E.?",
+          "What is the regitration fee for BE or Degree Engineering?",
+          "How much do they charge for BE or B.E. or Degree Engineering admission?"
+          
+        ],
+        "responses": [
+          "The registration charges are 350."
+        ]
+      },
+      {
+        "tag": "be_documents_required",
+        "patterns": [
+          "What documents are or do I need or require or for Degree Engineering or BE or B.E.?",
+          "List the documents required for Degree Engineering or BE or B.E.",
+          "What are the required documents or BE or B.E.?"
+        ],
+        "responses": [
+          "Latest HSC mark sheet, GUJCET score card, JEE(Main) NEET scorecard."
+        ]
+      },
+      {
+        "tag": "be_jee_gujcet_both",
+        "patterns": [
+          "If I have appeared or given in JEE Main or JEE and GUJCET both, can I apply in both together?",
+          "Can I apply if I have given JEE and GUJCET?"
+        ],
+        "responses": [
+          "The admission process for JEE(Main) and GUJCET is separate. Please check the guidelines provided by ACPC."
+        ]
+      },
+      {
+        "tag": "outside_gujarat_admission",
+        "patterns": [
+          "If I have studied outside Gujarat, can I apply for admission through ACPC for Degree Engineering or BE or B.E.?",
+          "If I have studied outside Gujarat, can I apply for admission through ACPC for BE?",
+          "If I have studied outside Gujarat, can I apply for admission through ACPC for B.E.?",
+          "Can a non Gujarat candidate apply for admission?"
+        ],
+        "responses": [
+          "Please note that you are eligible for 5% seats of Government and Grant-in-Aid institutions."
+        ]
+      },
+      {
+        "tag": "be_admission_eligibility_criteria",
+        "patterns": [
+          "What is the eligibility or required criteria or criteria or for BE or B.E. or Degree Engineering admission?",
+          "What is the passing criteria for BE or B.E. or Degree Engineering?",
+          "How much do I need to score to apply for BE or B.E. or Degree Engineering?",
+          "Who can apply for the admission in BE or B.E. or Degree Engineering?"
+        ],
+        "responses": [
+          "Passed HSCE in Science Stream with 45% marks for Open category in theory only or theory and practical with Physics and Mathematics as compulsory subjects along with Chemistry/ Biology/Bio-Technology or Technical Vocational as a Subject in qualifying examination."
+        ]
+      },
+      {
+        "tag": "be_merit_marks_calculation",
+        "patterns": [
+          "How are merit marks calculated or counted for Degree Engineering or BE or B.E. admissions?",
+          "How will be merit marks counted for Degree Engineering or BE or B.E.?"
+        ],
+        "responses": [
+          "The merit marks are calculated as the sum of sixty percentage of the percentile obtained in the theory subjects Physics, Chemistry, and Mathematics and forty percentage weightage of the percentile obtained in the GUJCET."
+        ]
+      },
+      {
+        "tag": "nri_admission_procedure",
+        "patterns": [
+          "What is the procedure or process or method for admission for NRI or NRI sponsor candidate?",
+          "How to apply for NRI quota?",
+          "How to apply for NRI sponsored quota?"
+        ],
+        "responses": [
+          "Follow guidelines by ACPC on www.jacpcldce.ac.in."
+        ]
+      },
+      {
+        "tag": "management_quota_admission_process",
+        "patterns": [
+          "What is the process or procedure or method for applying in Management Quota or MQ?",
+          "How to apply in Management Quota?",
+          "I want to apply in MQ or Management Quota, how can I apply?"
+        ],
+        "responses": [
+          "As per the guidelines given by ACPC available on website www.jacpcldce.ac.in."
+        ]
+      },
+      {
+        "tag": "eligibility_management_quota",
+        "patterns": [
+          "If I opt for management quota or MQ admission, am I still eligible for regular quota?",
+          "Will I still be elgigible in the regular quota if I registered for management quota or MQ?",
+          "Can I register in regular quota if already done for management quota or MQ?"
+        ],
+        "responses": [
+          "Yes, you are still eligible for regular quota."
+        ]
+      },
+      {
+        "tag": "reshuffling_after_management_quota",
+        "patterns": [
+          "If I get admission in management quota or MQ can I go for reshuffling?",
+          "Is reshuffuling allowed for Management Quota students?"
+        ],
+        "responses": [
+          "Yes, you can go for reshuffling if you get admission in management quota or MQ."
+        ]
+      },
+      {
+        "tag": "pharmacy_admission_procedure",
+        "patterns": [
+          "What is the procedure or process or requirements for M. Pharm or Pharmacy Admission?",
+          "How will the admission be carried out for M.Pharm or MPharm or mpharm?",
+          "What is the process for admission for M.Pharm or MPharm or?"
+        ],
+        "responses": [
+          "The Admission process is carried out by Admission Committee for Professional Courses (ACPC), as per rules defined by Education department of Government of Gujarat."
+        ]
+      },
+      {
+        "tag": "pharmacy_websites_to_apply",
+        "patterns": [
+          "Which are the websites to apply of M. Pharm courses?",
+          "Where can I apply for M.Pharm?"
+        ],
+        "responses": [
+          "https://gujacpc.admissions.nic.in http:/jacpcldce.ac.in OR https://acpc.gujarat.gov.in"
+        ]
+      },
+      {
+        "tag": "pharmacy_merit_list_preparation",
+        "patterns": [
+          "How is the Merit list prepared or made for M.Pharm?",
+          "What is the process to prepare Merit List for M.Pharm course?"
+        ],
+        "responses": [
+          "Merit List is prepared based on GPAT Score for GPAT Qualified candidates and score in Common entrance test (PGCET) conducted by ACPC in the concerned admission year. After that the unfilled seats are filled as per merit rank in PGCET of the corresponding admission year."
+        ]
+      },
+      {
+        "tag": "verify_documents_offline",
+        "patterns": [
+          "Do I need to verify my documents in person offline?",
+          "Where do I need to verify my documents?"
+        ],
+        "responses": [
+          "Please note that the entire process of verification is online."
+        ]
+      },
+      {
+        "tag": "pharmacy_admission_eligibility_criteria",
+        "patterns": [
+          "What is the eligibility or required criteria or criteria or for M.Pharm admission?",
+          "What is the passing criteria for M.Pharm?",
+          "How much do I need to score to apply for M.Pharm?",
+          "Who can apply for the admission in M.Pharm?"
+        ],
+        "responses": [
+          "The candidate shall have passed B. Pharm with minimum 55% (50% for SC/ST/SEBC/EWS candidates) at qualifying exam from recognized university/institution. More details are available in Appendix I of admission rules. The candidate should have a qualified valid GPAT score for GPAT qualified candidates but a Non-GPAT candidate shall have to appear in Common Entrance test (PGCET) in the concerned admission year."
+        ]
+      
+      },
+      {
+        "tag": "pharmacy_registration_fee",
+        "patterns": [
+          "What is the registration fee for M. Pharm admission?",
+          "What is the application fee for M.Pharm?",
+          "How much do they charge for M.Pharm admission?"
+        ],
+        "responses": [
+          "INR 1000/- (Non-refundable)."
+        ]
+      },
+      {
+        "tag": "successful_registration_verification",
+        "patterns": [
+          "How can I know that my registration form is successfully verified?",
+          "How to verify registration?",
+          "Is there a way to verify registration?"
+        ],
+        "responses": [
+          "During the verification of the candidate's online registration form a query will be generated if a discrepancy is found and sent to the candidate's registered Mobile & Email. Candidates must upload the required documents to solve any such query, also every candidate is informed to check in frequently on https://gujacpc.admissions.nic.in."
+        ]
+      },
+      {
+        "tag": "pharmacy_self_financed_institutes_seats",
+        "patterns": [
+          "Are all the seats of Self-financed or SFI or Self financed Institutes or SFI in Gujarat State filled by the ACPC for M.Pharm or MPharm?",
+          "How are the SFI or Self-financed or self financed seats filled for M.Pharm or MPharm?"
+        ],
+        "responses": [
+          "For the admission to the first year of Master of Pharmacy (M.Pharm) in Government, the Government of Gujarat conducts web-based online admission process for Grant-in-aid and Self-financed Institutes in Gujarat State, on State Quota of all institutions and voluntarily surrendered Management quota seats by self-financed institutes."
+        ]
+      },
+      {
+        "tag": "no_internet_facility",
+        "patterns": [
+          "How to apply if I do not have internet facility or access?",
+          "How to apply offline?"
+        ],
+        "responses": [
+          "The aspiring candidate can visit Cyber Space Centers designated by the admission committee without paying any charges. The list for that is available on the committee's website."
+        ]
+      },
+      {
+        "tag": "pharmacy_online_registration_compulsory",
+        "patterns": [
+          "Is it compulsory to register online even for GPAT qualified candidates?",
+          "Is GPAT required?"
+        ],
+        "responses": [
+          "Yes, it is compulsory for all GPAT qualified, Non-GPAT, and all sponsored candidates to register online to become eligible for further admission process."
+        ]
+      
+      },
+      {
+        "tag": "benefits_of_category_reservation_out_of_gujarat",
+        "patterns": [
+          "Can candidates from out of Gujarat get the benefits of category reservation?",
+          "Is reservation availabe for cadidates outside of Gujarat?"
+        ],
+        "responses": [
+          "Only if he is having a valid category certificate issued by the authorities empowered by the Govt. of Gujarat."
+        ]
+      },
+      {
+        "tag": "updates_regarding_admission",
+        "patterns": [
+          "How can I get updates regarding the admission process?",
+          "Where to get updates?"
+        ],
+        "responses": [
+          "Candidates are advised to visit the admission committee websites and log-in to the online admission portal regarding various announcements, verification process, and other guidelines on a daily basis."
+        ]
+      },
+      {
+        "tag": "pgcet_compulsory",
+        "patterns": [
+          "Is PGCET compulsory?",
+          "Is PGCET necessary?",
+          "Is PGCET required?"
+        ],
+        "responses": [
+          "Only for Non-GPAT candidates including sponsored (Non-GPAT) have to appear in PGCET for the corresponding admission year to become eligible for admission."
+        ]
+      },
+      {
+        "tag": "separate_hall_ticket",
+        "patterns": [
+          "Is there any separate hall ticket for candidates of M.Pharm or MPharm?",
+          "Is there any separate hall ticket for PGCET students?",
+          "Is a hall ticket issued for PGCET?"
+        ],
+        "responses": [
+          "No separate call letter will be issued for appearing in PGCET."
+        ]
+      },
+      {
+        "tag": "admission_helpline_number",
+        "patterns": [
+          "Helpline number for the admission?",
+          "Where can I get helpline number?",
+          "Who can I contact for help?"
+        ],
+        "responses": [
+          "Helpline number: 079-26566000"
+        ]
+      },
+      {
+        "tag": "pharmacy_documents_required_online_registration",
+        "patterns": [
+          "What documents are required or or needed during the online registration process for M.Pharm or MPharm?",
+          "What documents do I have to submit to apply for M.Pharm or MPharm admission?"
+        ],
+        "responses": [
+          "Candidates are required to upload the colored scanned copy of the original Documents listed in “Rule 17 of admission rules notified by the Government of Gujarat” available under the Rules tab of the committee's website."
+        ]
+      },
+      {
+        "tag": "cgpa_percentage",
+        "patterns": [
+          "Can I write the CGPA in place of percentage in the column % marks obtained?",
+          "I have written CGPA instead of percentage, is it ok?"
+        ],
+        "responses": [
+          "No. The CGPA or percentage (%) of marks awarded by the respective university or institute must be filled in as Percentage marks only."
+        ]
+      },
+      {
+        "tag": "fee_refund_if_marks_not_secure",
+        "patterns": [
+          "If I apply now and I do not secure minimum marks, will the registration fee be returned?",
+          "Is the registration fee refundable?"
+        ],
+        "responses": [
+          "No. The Registration fee is non-refundable. If secure minimum marks are not scored as specified in the rules also candidature will not be considered for the further admission process."
+        ]
+      },
+      {
+        "tag": "choice_filling",
+        "patterns": [
+          "Is choice filling required?",
+          "What would happen if I don't feel choices?"
+        ],
+        "responses": [
+          "Note that If no choice is filled in, no seat will be allotted. There is only automatic locking and not automatic choice filling."
+        ]
+      },
+      {
+        "tag": "choices_for_out_of_gujarat_candidates",
+        "patterns": [
+          "I am getting a list of only a few programs in choice filling, what should I do?",
+          "Why am I getting a few program list to fill?",
+          "I am a non Gujarat candidate, why am I getting a list of only a few programs?",
+          "I have applied as Out of Gujarat candidate, why am I getting a list of only a few programs?"
+        ],
+        "responses": [
+          "Outstate candidates other than Gujarat can see only the Govt/GIA seats during choice filling."
+        ]
+      },
+      {
+        "tag": "auto_locking",
+        "patterns": [
+          "What is Auto-Locking?",
+          "How does auto locking work?",
+          "What is auto locking?"
+        ],
+        "responses": [
+          "While filling the choices if you forget to lock, your last saved choices will get automatically locked on the last day of choice filling as per the schedule."
+        ]
+      },
+      {
+        "tag": "number_of_choices",
+        "patterns": [
+          "How many choices of courses can I apply to during the choice filling process?",
+          "is there a limit on number of choices?"
+        ],
+        "responses": [
+          "There is no limit on the number of choices from the list of eligible Institutions and programs."
+        ]
+      },
+      {
+        "tag": "pharmacy_lost_gpat_scorecard",
+        "patterns": [
+          "What if I have lost my GPAT scorecard?",
+          "I have lost my GPAT, what can I do?",
+          "Can I apply if I dont have my GPAT scorecard?"
+        ],
+        "responses": [
+          "Please contact the GPAT office to obtain a scorecard."
+        ]
+      },
+      {
+        "tag": "pharmacy_not_received_gpat_scorecard",
+        "patterns": [
+          "What to do if I have not received my GPAT scorecard?",
+          "I have not received my GPAT scorecard, what to do?",
+          "How can I get my GPAT scorecard?"
+        ],
+        "responses": [
+          "Please contact the GPAT office to obtain a scorecard."
+        ]
+      },
+      {
+        "tag": "pharmacy_gpat_candidate_eligibility_scholarship",
+        "patterns": [
+          "Is GPAT qualified candidate eligible for scholarship?",
+          "I have given GPAT am I eligible for scholarship?",
+          "Is non-GPAT candidate eligible for scholarships?"
+        ],
+        "responses": [
+          "Only the admitting institute can award the MHRD Post Graduate scholarship to those candidates who have secured marks equal to or more than the “qualifying marks” in GPAT and for the corresponding category of the candidate with due validity of the GPAT qualification as per the provisions of prevailing guidelines. Also, candidates must note that mere admission as “GPAT qualified candidates” does not guarantee MHRD Scholarship/Assistantship."
+        ]
+      },
+      {
+        "tag": "accept_allotted_seat_later",
+        "patterns": [
+          "Can I accept the first round allotted seat later?",
+          "I dont want to accept the first round allotted seat now, is it ok?"
+        ],
+        "responses": [
+          "No, if you do not accept the seat in the respective seat acceptance period of the round by online seat confirmation and paying seat confirmation token fee, you will lose your allotted seat."
+        ]
+      },
+      {
+        "tag": "choice_filling_preparation",
+        "patterns": [
+          "What preparation is needed or required to fill the choices?",
+          "What do I need to do to fill the choices?"
+        ],
+        "responses": [
+          "It is particularly important to study the courses available in all the participating institutes. One may visit their official websites or contact the helpline of that participating institute to know more."
+        ]
+      },
+      {
+        "tag": "unavailable_choices",
+        "patterns": [
+          "Why do I see those choices for which vacancies are not available on the website?",
+          "Why are they showing not available vacant choices?"
+        ],
+        "responses": [
+          "They are shown as all the choices which are shown based on your eligibility, including those on which the seat may not be available at the beginning but may become available due to the upgradation of other candidates."
+        ]
+      },
+      {
+        "tag": "modify_choices_after_locking",
+        "patterns": [
+          "Can I modify the choices after locking?",
+          "Am I allowed to change my choices?"
+        ],
+        "responses": [
+          "Yes. The candidate can modify choices using the Choice Unlocking option available in the candidate's login."
+        ]
+      },
+
+      {
+        "tag":"seat_acceptance_fee",
+        "patterns":[
+            "Do I need to pay aacpetcance fee again in next round?",
+            "Is acceptance fee reuqired to be paid again?"
+        ],
+        "responses":[
+            "No, you do not need to pay acceptance fees again if paid before."
+        ]
+      },
+      {
+        "tag": "pharmacy_apply_as_non_gpat_candidate",
+        "patterns": [
+          "Can I apply as a GPAT qualified candidate if not qualified or did not appear in GPAT?",
+          "Can a non qualified GPAT candidate apply?"
+        ],
+        "responses": [
+          "No, since for GPAT qualified candidates, possessing a valid GPAT score is essential."
+        ]
+      },
+      
+      {
+        "tag": "participate_without_accepting_seat",
+        "patterns": [
+          "Can I participate in seat allotment in further rounds without accepting the seat?",
+          "Do I need to accept the current seat to go in next round?"
+        ],
+        "responses": [
+          "Please see that the same institute and same course seat will not be allotted to you in all subsequent rounds of the admission process."
+        ]
+      },
+      {
+        "tag": "best_strategy_choice_filling",
+        "patterns": [
+          "What is the best strategy for choice filling?",
+          "How can I fill choices in the best way possible?",
+          "How to perfectly fill choices?"
+        ],
+        "responses": [
+          "Each choice of institute or branch must be such that you know completely what you are asking for. Include only those choices in your list where you are prepared to join in case of an allotment. Fill choices as per your preference of the courses that you would like to join. Choice filling may not be done considering which course you can be allotted based on your rank. One must refrain from a take-a-chance approach."
+        ]
+      },
+      {
+        "tag": "pharmacy_financial_aid_options",
+        "patterns": [
+          "Is financial aid available for Master of Pharmacy or M.Pharm or MPharm students?",
+          "is there any governmnement schemes available for Pharmacy or M.Pharm or MPharm students?"
+        ],
+        "responses": [
+          "Yes, many Government schemes and universities or institutions offer financial aid options, such as scholarships, MHRD assistantships for GPAT qualified candidates, and loans. It's recommended to explore the financial aid opportunities provided by the specific university/institution and various government schemes applicable."
+        ]
+      },
+      {
+        "tag": "pharmacy_specific_timelines_for_applications",
+        "patterns": [
+          "Are there specific timelines for Master of Pharmacy or M.Pharm or MPharm program applications?",
+          "What is the timeline for applications for Master of Pharmacy or M.Pharm or MPharm admission?"
+        ],
+        "responses": [
+          "The admission process comprises various admission-related activities such as the registration process, document verification, appearance in CET (PGCET), merit declaration, choice filling, allotment of admission, etc. The detailed schedule is available on the admission committee website."
+        ]
+    },
+    {
+        "tag": "march_mplan_websites",
+        "patterns": [
+          "Which are the Websites for admission of M.Arch or M.Plan courses?",
+          "From where can I get information about MArch or MPlan or M.Arch or M.Plan courses?"
+        ],
+        "responses": [
+          "http://jacpcldce.ac.in or https://acpc.gujarat.gov.in"
+        ]
+      },
+      {
+        "tag": "march_mplan_merit_list",
+        "patterns": [
+          "How is the Merit List prepared for MArch or MPlan or M.Arch or M.Plan ?",
+          "What is the method to prepare Merit List for MArch or MPlan or M.Arch or M.Plan?"
+        ],
+        "responses": [
+          "Marks secured in Common entrance test (PGCET) conducted by ACPC in the concerned admission year."
+        ]
+      },
+      {
+        "tag": "march_mplan_eligibility",
+        "patterns": [
+          "What is the eligibility or required criteria or criteria or for M.Arch or MArch or Master in Architecure admission?",
+          "What is the passing criteria for M.Arch or MArch or Master in Architecure?",
+          "How much do I need to score to apply for M.Arch or MArch or Master in Architecure?",
+          "Who can apply for the admission in M.Arch or MArch or Master in Architecure?"
+        ],
+        "responses": [
+          "The candidate shall have passed Bachelor of Architecture with minimum 50% (45% for SC/ST/SEBC/EWS candidates) at qualifying exam from recognised university/institution. Candidate shall have to appear in Common Entrance test (PGCET) conducted by the ACPC in the concerned admission year."
+        ]
+      },
+      {
+        "tag": "march_mplan_eligbile_planning",
+        "patterns": [
+          "What is the eligibility or required criteria or criteria for M.Plan or MPlan or Master in Planning?",
+          "What is the passing criteria for M.Plan or MPlan or Master in Planning?",
+          "How much do I need to score to apply for M.Arch or Master in Architecure?",
+          "Who can apply for the admission in M.Plan or MPlan or Master in Planning?"
+        ],
+        "responses": [
+          "The candidate shall have passed Bachelor of Architecture OR B.E./B. Tech. (Civil Engineering) OR Bachelor of Planning OR Post Graduation in Geography or Economics or Sociology or equivalent qualification with minimum 50% (45% for SC/ST/SEBC/EWS candidates) at qualifying exam from recognised university/institution. Candidate shall have to appear in Common Entrance test (PGCET) conducted by the ACPC in the concerned admission year."
+        ]
+      },
+      {
+        "tag": "march_mplan_admission_process",
+        "patterns": [
+          "Who can apply for the admission registration process of M.Arch or M.Plan?"
+        ],
+        "responses": [
+          "For M.Arch, The candidate shall have passed Bachelor of Architecture and for M.Plan, The candidate shall have passed Bachelor of Architecture OR B.E./B. Tech. (Civil Engineering) OR Bachelor of Planning OR Post Graduation in Geography or Economics or Sociology or equivalent qualification with minimum 50% marks (45% for SC/ST/SEBC/EWS candidates) at qualifying exam. Candidates waiting for final semester results or backlog result can also apply but have to pass qualifying examination as per the Admission rules. However, merit number in such cases will be given if mark sheet and provisional degree certificate of passing qualifying exam is uploaded within the scheduled time limit."
+        ]
+      },
+      {
+        "tag": "march_mplan_fee",
+        "patterns": [
+          "What is the registration fee for M.Arch or M.Plan admission?",
+          "How much is the registration fee for MArch or MPlan or M.Arch or M.Plan?",
+          "What is the application fee for MArch or MPlan or M.Arch or M.Plan?"
+        ],
+        "responses": [
+          "INR 1000/- (Non-refundable) through D. D. In favour of “GTERS - ACPC Income (Fees)”, Payable at Ahmedabad for year 2023-24."
+        ]
+      },
+      {
+        "tag":"march_mplan_pgcet",
+        "patterns":[
+          "Is PGCET compulsory for MArch or MPlan or M.Arch or M.Plan?",
+          "Is PGCET required for MArch or M.Arch or M.Plan or Mplan?"
+        ],
+        "responses":["All candidates including sponsored shall have to appear in PGCET for corresponding admission year to become eligible for admission."]
+      },
+      {
+        "tag": "march_mplan_sfi_filled",
+        "patterns": [
+          "Are all the seats of Self-financed Institutes in Gujarat State filled by the ACPC for MArch or MPlan or M.Arch or M.Plan ?",
+          "How are the SFI or Self-financed or self financed seats filled or MArch or MPlan or M.Arch or M.Plan ?"
+        ],
+        "responses": [
+          "For the admission to the first year of M.Arch/M.Plan in Government, Grant-in-aid and Self-financed Institutes in Gujarat State, on State Quota of all institutions and voluntarily surrendered Management quota seats by self-financed institutes, the Government of Gujarat conducts web-based offline admission process for the relevant academic year."
+        ]
+      },
+      
+      {
+        "tag": "march_mplan_specific",
+        "patterns": [
+          "Are there specific timelines for M.Archor M.Plan or MArch or MPlan admission?",
+          "What are the timelines for admission for MArch or MPlan or M.Arch or M.Plan ?"
+        ],
+        "responses": [
+          "Yes, the admission process has various admission related activities such as registration process, appearance in CET (PGCET), merit declaration, allotment of admission, etc."
+        ]
+      },
+      {
+        "tag": "march_mplan_procedure",
+        "patterns": [
+          "What is the Admission Procedure for MArch or MPlan or M.Arch or M.Plan ?",
+          "How is the admission carried out for MArch or MPlan or M.Arch or M.Plan ?"
+        ],
+        "responses": [
+          "Application Form with the list of documents to be attached and general instruction, Key dates for the admission process, Seat matrix are uploaded on the ACPC website http://jacpcldce.ac.in or http://acpc.gujarat.gov.in. Based on marks obtained by eligible candidate appeared in PGCET examination conducted by ACPC in corresponding year a Merit list is prepared and declared on ACPC website as well as Offline counselling is done at ACPC, Ahmedabad as per the merit list and choices of candidates."
+        ]
+      },
+     
+      {
+        "tag": "mtech_Sfi_gujarat",
+        "patterns": [
+          "Are all the seats of Self-financed Institutes in Gujarat State filled by the ACPC for Masters of Engineering or MTech or M.Tech?",
+          "How are the SFI or Self-financed or self financed seats filled for Masters of Engineering or MTech or M.Tech?"
+        ],
+        "responses": [
+          "For the admission to the first year of Master of Pharmacy (ME/MTech.) in Government, Grant-in-aid and Self-financed Institutes in Gujarat State, on State Quota of all institutions and voluntarily surrendered Management quota seats by self-financed institutes, the Government of Gujarat conducts web-based online admission process for the relevant academic year."
+        ]
+      },
+      
+      {
+        "tag": "mtech_online_compulsory",
+        "patterns": [
+          "Is it compulsory to register online even for GATE qualified candidates?",
+          "Can I apply offline for GATE qualified candidates?"
+        ],
+        "responses": [
+          "All GATE qualified candidates, Non-GATE candidates, and all sponsored candidates shall have to register online to become eligible for further admission process. Please note that no other means of registration is available."
+        ]
+      },
+      
+      {
+        "tag": "mtech_PGCET_compulsory",
+        "patterns": [
+          "Is PGCET compulsory for Masters of Engineering or MTech or M.Tech?",
+          "Do I need to give PGCET to apply in Masters of Engineering or MTech or M.Tech?"
+        ],
+        "responses": [
+          "All Non-GATE candidates including sponsored (Non-GATE) shall have to appear in PGCET for the corresponding admission year to become eligible for admission. However, GATE qualified candidates have not to appear in PGCET."
+        ]
+      },
+      
+      {
+        "tag": "mtech_document_need",
+        "patterns": [
+          "What documents are needed during the online registration process for Masters of Engineering or MTech or M.Tech?",
+          "Important documents for Masters of Engineering or MTech or M.Tech?"
+        ],
+        "responses": [
+          "Candidates are required to upload the colored scanned copy of the original Documents listed in “Rule 17 of admission rules notified by the Government of Gujarat”. The notification is available under the Rules tab of the committee's website."
+        ]
+      },
+     
+      {
+        "tag": "mtech_gate_card_lost_notreceived",
+        "patterns": [
+          "What if I have lost my GATE scorecard?",
+          "I have lost my GATE scorecard, help",
+          "Can I still apply if I don't have my GATE scorecard?",
+          "What if I have not received my GATE scorecard?",
+          "I Haven't received my GATE scorecard, what can I do?"
+        ],
+        "responses": [
+          "Please contact the GATE office to obtain a scorecard as it will be compulsorily required to be uploaded for document verification during the registration process."
+        ]
+      },
+      {
+        "tag": "mtech_qualified_candidate",
+        "patterns": [
+          "Is a GATE qualified candidate eligible for a scholarship?",
+          "Will I get scholarship if I have cleared GATE?"
+        ],
+        "responses": [
+          "It is the responsibility of the admitting institute/university to award the MHRD/AICTE Post Graduate scholarship/assistantship to only those candidates who have secured marks equal to or more than the “qualifying marks” in the concerned GATE exam."
+        ]
+      },
+      
+      {
+        "tag": "prepare_filled_choices",
+        "patterns": [
+          "What preparations I have to do to fill choices?",
+          "What is the way to fill choices?",
+          "What are the steps to fill choices?"
+        ],
+        "responses": [
+          "One may visit official websites or contact the helpline of that participating institute to know offered courses. Please ensure that you fulfill all eligibility criteria, for all the choices you have filled."
+        ]
+      },
+      {
+        "tag": "mtech_document_classII",
+        "patterns": [
+          "What document should I upload for class XII or 12 mark sheet if I have done 3 year Diploma?",
+          "What documents do I need to upload if I have done Diploma?"
+        ],
+        "responses": [
+          "The candidate is required to upload the Diploma certificate of his/her 3-year diploma course in place of the 12th mark sheet."
+        ]
+      },
+      
+      {
+        "tag": "mtech_gate_qualified_notqualified",
+        "patterns": [
+          "Can I apply as a GATE qualified candidate if not qualified or appeared for GATE?",
+          "I have not qualified GATE, can I apply?"
+        ],
+        "responses": [
+          "No, Since, for GATE qualified candidates, possessing a valid GATE score of the year 2021, 2022, and/or 2023 is essential."
+        ]
+      },
+      {
+        "tag": "mtech_finanical_aid",
+        "patterns": [
+          "Is financial aid available for Master of Engineering or Technology  or M.tech or MTech students?",
+          "Are there any government schemes avaialable for Master of Engineering or Technology  or M.tech or MTech students?"
+        ],
+        "responses": [
+          "Many Government schemes and universities/institutions offer financial aid options, such as scholarships, MHRD-AICTE assistantships for GATE qualified candidates, and loans. It's recommended to explore the financial aid opportunities provided by the specific university/institution and various government schemes you're interested in."
+        ]
+      },
+      {
+        "tag": "mtech_specific_timelines",
+        "patterns": [
+          "Are there specific timelines for Master of Engineering or Technology  or M.tech or MTech  program applications?",
+          "What is the specific timeline for Master of Engineering or Technology  or M.tech or MTech admission?"
+        ],
+        "responses": [
+          "Yes, the detailed activity-wise schedule is available on the admission committee website. It's crucial to complete each activity before the stated deadline."
+        ]
+      },
+      {
+        "tag": "mtech_multiple_decisions",
+        "patterns": [
+          "Can I apply to multiple disciplines of Master of Engineering or Technology  or M.tech or MTech  programs?",
+          "Is it compulsory to apply for single discipline for Master of Engineering or Technology  or M.tech or MTech?",
+          "Can I choose multiple fields to apply for Master of Engineering or Technology  or M.tech or MTech?"
+        ],
+        "responses": [
+          "You can apply to multiple disciplines of ME/MTech programs simultaneously but the registration fee for each will have to be paid."
+        ]
+      },
+     
+      {
+        "tag": "mba_mca_gujarat",
+        "patterns": [
+          "Is a candidate from outside Gujarat eligible for MBA-MCA admission?",
+          "Is a candidate from outside Gujarat eligible for MBA-MCA admission?",
+          "Is a Non-Gujarati candidate eligible for MBA-MCA admission?",
+          "I am not from Gujarat , can I apply for MBA-MCA ?",
+          "Is a person from outside Gujarat eligible for MBA-MCA admission?",
+          "Can a person from outside Gujarat eligible for MBA-MCA?",
+          "Can a candidate from outside Gujarat eligible for MBA-MCA?",
+          "can a person apply for MCA-MBA from state other than Gujarat?"
+        ],
+        "responses": [
+          "Yes, 5% of the seats are available for candidates from outside Gujarat in Government and Grant-in-aid colleges."
+        ]
+      },
+      {
+        "tag": "mba_mca_hand",
+        "patterns": [
+          "What is the level of disability required for availing seats under the Physically Handicapped(PH) quota?",
+          "What is the level of disability required for availing seats under the Physically Handicapped(PH) quota?",
+          "what are the required disability level to avail seat under Physically Handicapped(PH) quota?",
+          "Required disability percentage to get admission under Physically Handicapped quota?"
+        ],
+        "responses": [
+          "The disability should not be less than 40%."
+        ]
+      },
+      
+      {
+        "tag": "mba_mca_eligible",
+        "patterns": [
+          "What are the eligibility criteria for MBA or MCA Courses?",
+          "eligibility criteria for MCA or MBA?",
+          "Who is eligible for MCA or MBA courses?",
+          "Minimum qualification required to apply in MBA or MCA course?",
+          "Who is eligible for MBA or MCA ?",
+          "Who can get admission in MBA or MCA course?",
+          "Who is eligible for admission in MBA or MCA course?"
+        ],
+        "responses": [
+          "- Minimum Qualification: The candidate should have appeared in CMAT-2023 examination conducted by NTA (prescribed by AICTE) and should have passed the qualifying examination with a minimum of 50% (45% for reserved categories) for MBA and MCA courses.\n- For MBA: The candidate should have passed a Bachelor's Degree of minimum 3 years duration from recognized institutes/universities.\n- For MCA: The candidate should have passed the qualifying examination of B.C.A. / B.Sc. (Computer Science) / B.Sc. (IT) / B.E. (CSE) / B.Tech. (CSE) / B.E. (IT) / B.Tech. (IT) or equivalent Degree or any graduation degree with Mathematics, Business Mathematics, or Statistics at 10+2 level or Graduation level. For students with no Mathematics background, a compulsory bridge course will be framed by the respective University/Institution."
+        ]
+      },
+     
+      {
+        "tag": "mba_mca_calculate",
+        "patterns": [
+          "How are merit marks calculated for MBA/MCA or MBA or MCA?",
+          "How does the merit marks get calculated for MBA/MCA or MBA or MCA?",
+          "What is the method to calculate merit marks fro MBA or MCA?",
+          "What is process to calculate merit marks for MBA or MCA?"
+          
+        ],
+        "responses": [
+          "Merit marks are calculated based on the CMAT 2023 scores for candidates who have passed the qualifying examination from any of the mentioned Universities/Institutes."
+        ]
+      },
+      {
+        "tag": "tfws_category",
+        "patterns": [
+          "If a student is applying for TFWS, is he considered for that particular category?",
+          "Will I be considered in a particular category if I am applying for TFWS?",
+          "does a student gets considered in a particular category if he or she applies for TFWS?",
+          "I am applying for TFWS, will I be considered for that particular category?"
+        ],
+        "responses": [
+          "Yes, the student is considered for TFWS category subject to having a valid income certificate issued by a competent authority."
+        ]
+      },
+      {
+        "tag": "eligible_tfws",
+        "patterns": [
+          "What is the eligibility for TFWS?",
+           "Who is eligible for TFWS?",
+          "What is family income limit to be eligible for TFWS?",
+          "Income limit for TFWS eligibilty?"
+        ],
+        "responses": [
+          "The family income should not exceed 8 Lakh per annum. Any category student can apply under this scheme."
+        ]
+      },
+      {
+        "tag": "apply_tfws",
+        "patterns": [
+          "How can a candidate apply for admission on the TFWS seat?",
+          "How to apply if I am from TFWS category?",
+          "I am from TFWS, how can I apply?"
+        ],
+        "responses": [
+          "a) While registering for the first time, the candidate has to select 'yes' for applying under the TFW category.\nb) The candidate will be shown the TFW seat as one of the choices along with normal seats while filling choices online if they elected 'yes' in part (a). The candidate has to select both the TFW seat and the normal seat for admission to a particular institute/university."
+        ]
+      },
+     
+      {
+        "tag": "locked_out",
+        "patterns": [
+          "If filled choices are not locked, is it safe to logout?",
+          "Can I logout if I have not locked my choices?",
+          "When can I log out after filling choices?"
+        ],
+        "responses": [
+          "You can logout after saving the filled choices"
+        ]
+      },
+      {
+        "tag": "time_edit_choices",
+        "patterns": [
+          "How many times can choices be edited?",
+          "Can I edit my choices more than once?",
+          "What is the limit on editing choices?"
+        ],
+        "responses": [
+          "Choices can be edited an unlimited number of times within the stipulated time decided by ACPC."
+        ]
+      },
+      {
+        "tag": "mock_round",
+        "patterns": [
+          "If I get admission of choice in the mock round, can I secure it?",
+          "Is the mock round seat final?",
+          "Will I get similar seat I got in mock round?"
+        ],
+        "responses": [
+          "No, the mock round is for practice purposes only and does not guarantee admission."
+        ]
+      },
+      {
+        "tag": "quota_full",
+        "patterns": [
+          "If the seats in the reserved quota are full, can a candidate from SC or ST or SEBC or EWS or PH or ESM get admission in the open category?",
+          "Can a candidate of other category get admission in open?",
+          "I am from SC or ST or SEBC or EWS or PH or ESM category, can I get admission in open?"
+        ],
+        "responses": [
+          "This situation does not arise because category candidates are allotted first in open category seats. If no seat is available in the open category, only then are reserved category seats allotted."
+        ]
+      },
+      {
+        "tag": "original_document",
+        "patterns": [
+          "Are original documents to be submitted anywhwere?",
+          "Do I need original documents to submit?",
+          "I don't have original documents, can I submit?"
+        ],
+        "responses": [
+          "You are not required to submit any original documents anywhere."
+        ]
+      },
+      {
+        "tag": "ST_eligible",
+        "patterns": [
+          "If a SC or ST or SEBC candidate gets admission under the open category, will he be eligible for a scholarship from the Government?",
+          "I am from SC or ST or SEBC, if I get admission in open will I get scholarship?"
+        ],
+        "responses": [
+          "Yes, if the candidate meets the other requirements for eligibility for a scholarship."
+        ]
+      },
+      
+      {
+        "tag": "document_MQ_NRI",
+        "patterns": [
+          "What are the documents required for admission for MQ or Mangement Quota or NRI or NRI sponsored candidates?",
+          "Do I need to upload same documents for MQ or Mangement Quota or NRI or NRI admission?"
+        ],
+        "responses": [
+          "Please refer the website http://www.jacpcldce.ac.in or https://acpc.gujarat.gov.in for details regarding the required documents for admission for MQ/NRI/NRI sponsored candidates."
+        ]
+      },
+      {
+        "tag": "MQ_NRI_college_number",
+        "patterns": [
+          "To how many colleges can I apply for management quota?",
+          "What colleges give MQ or Management quota seats?",
+          "Do all college have or offer MQ or Management quota seats?"
+        ],
+        "responses": [
+          "You can find seat details from our website http://www.jacpcldce.ac.in or https://acpc.gujarat.gov.in."
+        ]
+      },
+      
+      {
+        "tag": "mba_mca_quota_girls",
+        "patterns": [
+          "Is there any reservation or special quota for girls in MBA or MCA?",
+          "What is the reservation quota for girls in MBA or MCA?"
+        ],
+        "responses": [
+          "There is no specific reservation or special quota for girls in MBA/MCA."
+        ]
+      },
+      {
+        "tag": "mba_mca_merit",
+        "patterns": [
+          "Is the same merit number given for MBA and MCA courses?",
+          "How will the merit number given for MBA and MCA courses?",
+          "Will I get same merit number for MBA and MCA courses?"
+        ],
+        "responses": [
+          "Separate merit numbers will be generated based on your merit marks for MBA and MCA courses."
+        ]
+      },
+      {
+        "tag": "admission_check",
+        "patterns": [
+          "How can I check where I have got admission?",
+          "Where can I check or alloted seat?",
+          "Where to get details about alloted seat?"
+        ],
+        "responses": [
+          "You can log in to your account on https://gujacpc.admissions.nic.in or https://gujacpc.nic.in with your login ID and password and refer to the 'result' tab to check your admission status."
+        ]
+      },
+      {
+        "tag": "greeting",
+        "patterns": ["Hi", "Hello", "Hey"],
+        "responses": ["Hello!", "Hi there!", "Hey, how can I help you?"]
+      },
+      {
+        "tag": "whatsup",
+        "patterns": [
+            "Whats up",
+            "Wazzup",
+            "sup"
+        ],
+        "responses": [
+            "All good..What about you?"
+        ]
+    },
+    {
+        "tag": "age",
+        "patterns": [
+            "how old are you","when were you made","what is your age"
+        ],
+        "responses": [
+            "I was made in 2023, if that's what you are asking!"
+        ]
+    },
+    {
+        "tag": "nicetty",
+        "patterns": [
+            "it was nice talking to you",
+            "good talk","thanks" , "thankyou"
+        ],
+        "responses": [
+            "It was nice talking to you as well! Come back soon!"
+        ]
+    },
+    {
+        "tag": "suggest",
+        "patterns": [
+            "you are useless","useless","suggest","suggestions","you are bad"
+        ],
+        "responses": [
+            "I apologise for that","I am sorry I was not helpful to you"
+        ]
+    },
+      {
+        "tag": "how_are_you",
+        "patterns": ["How are you?", "How are you doing?"],
+        "responses": ["I'm good, thank you!", "Feeling great! How about you?"]
+      },
+      {
+        "tag": "noanswer",
+        "patterns": ["!","@","#","$"],
+        "responses": [
+            "Sorry, can't understand you",
+            "Please give me more info",
+            "Not sure I understand"
+        ]
+    },
+    {
+        "tag": "jokes",
+        "patterns": [
+            "Tell me a joke",
+            "Joke",
+            "Make me laugh"
+        ],
+        "responses": [
+            "A perfectionist walked into a bar...apparently, the bar wasn't set high enough",
+            "I ate a clock yesterday, it was very time-consuming",
+            "Never criticize someone until you've walked a mile in their shoes. That way, when you criticize them, they won't be able to hear you from that far away. Plus, you'll have their shoes.",
+            "The world tongue-twister champion just got arrested. I hear they're gonna give him a really tough sentence.",
+            "I own the world's worst thesaurus. Not only is it awful, it's awful.",
+            "What did the traffic light say to the car? \"Don't look now, I'm changing.\"",
+            "What do you call a snowman with a suntan? A puddle.",
+            "How does a penguin build a house? Igloos it together",
+            "I went to see the doctor about my short-term memory problems - the first thing he did was make me pay in advance",
+            "As I get older and I remember all the people I've lost along the way, I think to myself, maybe a career as a tour guide wasn't for me.",
+            "o what if I don't know what 'Armageddon' means? It's not the end of the world."
+        ]
+    },
+      {
+        "tag": "what_do_you_do",
+        "patterns": [
+          "What do you do?",
+          "What is your function?",
+          "How can you help me?",
+          "What are you capable of?",
+          "Who are you?"
+        ],
+        "responses": [
+          "I will help you with your admission queries.",
+          "I help solve admission queries.",
+          "I can provide information and answer questions related to admissions.",
+          "I am capable of assisting with queries about educational admissions."
+        ]
+      },
+      {
+        "tag": "who_created_you",
+        "patterns": [
+          "Who created you?",
+          "Who wrote your code?",
+          "Who developed you?",
+          "Who is your owner?"
+        ],
+        "responses": [
+          "I was created by Government of Gujarat.",
+          "I was developed at KCG."
+        ]
+      },
+      {
+        "tag":"name",
+        "patterns":["What is your name","What can I call you"],
+        "responses":["I am yet to be named","I don't have a name"]
+      },
+      {
+        "tag": "default",
+        "patterns": ["see ya!", "bye", "goodbye","take care!"],
+        "responses": ["Goodbye!", "Take care!", "See you later!"]
+      }
+    ]
+  }
+  
