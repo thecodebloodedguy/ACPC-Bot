@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chatbox</title>
+    <link rel="stylesheet" href="./style.css">
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <div class="title">
+            <h1>Chatbox</h1>
+        </div>
+        <div class="content" id="chat-content">
+
+            <div class="sent">
+                <div class="message message-left blob">
+                <p class="message-text">
+                    Please ask me questions to find answers
+                </p>
+                </div>
+            </div>
+        </div>
+        <div class="input">
+            <button title="College prediction" id="prediction">
+                <!-- right arrow fontawesome -->
+                <i class="fa-solid fa-wand-magic-sparkles"></i>
+            </button>
+            <input type="text" id="user-input" placeholder="Type a message">
+            <button title="Send" id="send-button">
+                <!-- right arrow fontawesome -->
+                <i class="fas fa-arrow-right"></i>
+            </button>
+        </div>
+    </div>
+    <form id="fill-up-form" class="pop-up-form active" style="display: none;">
+        <div class="container">
+            <div class="title">
+                <h1>Fill up</h1>
+            </div>
+            <div class="rank">
+                <label for="rank">Tell me your rank </label>
+                <input type="number" name="rank" id="rank" placeholder="rank">
+            </div>
+            <div class="marks">
+                <label for="marks">Tell me your marks </label>
+                <input type="number" name="marks" id="marks" placeholder="marks">
+            </div>
+            <div class="branch">
+                <label for="branch">Branch</label>
+                <select name="branch" id="branch">
+                    <!-- Branch options will be added dynamically -->
+                </select>
+            </div>
+            <div class="category">
+                <label for="category">Category</label>
+                <select name="category" id="category">
+                    <!-- Category options will be added dynamically -->
+                </select>
+            </div>
+            <button type="submit"> Done </button>
+        </div>
+    </form>
+    
+    <script>
+        const branch = [
+            'CSE', 'AUTOMOBILE ENGINEERING', 'CIVIL ENGINEERING', 'ELECTRICAL ENGINEERING',
+            'ELECTRONICS & COMMUNICATION ENGINEERING', 'FOOD TECHNOLOGY',
+            'IT', 'MECHANICAL ENGINEERING',
+            'INFORMATION & COMMUNICATION TECHNOLOGY',
+            'AERONAUTICAL ENGINEERING', 'CHEMICAL ENGINEERING',
+            'AUTOMATION AND ROBOTICS', 'ENVIRONMENTAL ENGINEERING',
+            'NANO TECHNOLOGY', 'PHARMACEUTICAL ENGINEERING',
+            'ROBOTICS AND AUTOMATION', 'PRODUCTION ENGINEERING',
+            'MANUFACTURING ENGINEERING', 'PLASTIC ENGINEERING', 'MECHATRONICS',
+            'BIOTECHNOLOGY', 'MATHEMATICS AND COMPUTING',
+            'METALLURGICAL ENGINEERING', 'TEXTILE ENGINEERING',
+            'WATER MANAGEMENT ***', 'INSTRUMENTATION & CONTROL ENGINEERING',
+            'MARINE ENGINEERING', 'PETROCHEMICAL ENGINEERING',
+            'MINING ENGINEERING', 'ELECTRONICS & INSTRUMENTATION ENGINEERING',
+            'ELECTRONICS & COMMUNICATION (Communication', 'RUBBER TECHNOLOGY',
+            'INDUSTRIAL ENGINEERING', 'POWER ELECTRONICS',
+            'ROBOTICS & ARTIFICIAL INTELLIGENCE', 'PETROLEUM ENGINEERING',
+            'AIRCRAFT MAINTENANCE ENGINEERING', 'AGRICULTURAL ENGINEERING',
+            'DAIRY TECHNOLOGY', 'FIRE & SAFETY ENGINEERING',
+            'CHEMICAL ENGINEERING ', 'CHEMICAL TECHNOLOGY',
+            'MOBILE APPLICATION & CLOUD TECHOLOGY'
+        ];
+    
+        const branchSelect = document.getElementById('branch');
+        branch.forEach((branchItem) => {
+            const option = document.createElement('option');
+            option.text = branchItem;
+            option.value = branchItem;
+            branchSelect.appendChild(option);
+        });
+    
+        const category = ['DS', 'EVS', 'EWS', 'OPEN', 'SC', 'SEBC', 'TFW'];
+        const categorySelect = document.getElementById('category');
+        category.forEach((categoryItem) => {
+            const option = document.createElement('option');
+            option.text = categoryItem;
+            option.value = categoryItem;
+            categorySelect.appendChild(option);
+        });
+    </script>
+
+    <script>
+    document.addEventListener('DOMContentLoaded', () => {
+
+    const fillUpForm = document.getElementById('fill-up-form');
+    fillUpForm.addEventListener('submit', (event) => {
+      event.preventDefault(); // Prevent the default form submission behavior
+      fillUpForm.style.display = 'none';
+      // Get all the input values from the form
+      const rankI = document.getElementById('rank').value;
+      const marksI = document.getElementById('marks').value;
+      const branchInput = document.getElementById('branch').value;
+      const categoryInput = document.getElementById('category').value;
+      const marksInput = parseInt(marksI)
+      const rankInput = parseInt(rankI)
+
+      // Create the data object to send in the POST request
+      const data = {
+        rank: rankInput,
+        marks: marksInput,
+        branch: branchInput,
+        category: categoryInput
+      };
+      const ep="http://127.0.0.1:5000/predict/?course="+branchInput+"&category="+categoryInput+"&rank="+rankInput+"&mark="+marksInput+"";
+
+      // Send the data to the API endpoint using Fetch API
+      fetch(ep, {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json'
+        },
+      })
+        .then(response => response.json())
+        .then(result => {
+
+         const formResponse=result.message;
+          // Handle the API response and display the message in the chatbox
+          addMessage(formResponse, true);
+
+          // Scroll to the bottom of the chatbox to show the latest message
+          
+        })
+        .catch(error => console.error('Error:', error));
+    });
+  });
+
+            const chatContent = document.getElementById('chat-content');
+            const userInput = document.getElementById('user-input');
+            const prediction = document.getElementById('prediction');
+            const sendButton = document.getElementById('send-button');
+
+            const addMessage = (message, isReceived) => {
+                const messageClass = isReceived ? 'message-left' : 'message-right';
+                const messageDiv = document.createElement('div');
+                messageDiv.classList.add('message', 'blob', messageClass);
+                messageDiv.innerHTML = `<p class="message-text">${message}</p>`;
+                chatContent.appendChild(messageDiv);
+            };
+
+            const getUserSelection = () => {
+                const options = document.getElementsByName('radio');
+                for (const option of options) {
+                    if (option.checked) {
+                        return option.value;
+                    }
+                }
+                return '';
+            };
+
+            const sendMessage = () => {
+                const userMessage = userInput.value.trim();
+                if (userMessage) {
+                    addMessage(userMessage, false);
+                    userInput.value = '';
+                    // Send the user message to the Flask backend via a POST request
+                    const userOption = getUserSelection();
+                    const user_br=parseInt(userOption)
+                    const data = {
+                        "user_br": 1,
+                        "userMessage": userMessage
+                    };
+                    const endpoint='https://79a4-2409-4041-2e10-4c1b-1ca5-e42f-1710-7a2e.ngrok-free.app/?user_br=1'+'&userMessage='+userMessage+''
+                    fetch(endpoint, {
+                        method: 'POST',
+                        headers: {
+                            'Content-Type': 'application/json'
+                        },
+                        // body: endpoint
+                        
+                    })
+                    .then(response => response.json())
+                    .then(data => {
+                        const responseMessage = data.message;
+                        addMessage(responseMessage, true);
+                        
+                    })
+                    .catch(error => console.error('Error:', error));
+                }
+            };
+
+            const showForm = () => {
+            const formPopup = document.getElementById('fill-up-form');
+            formPopup.style.display = 'block';};
+            sendButton.addEventListener('click', () => {
+                sendMessage();
+            });
+
+            prediction.addEventListener('click', (event) => {
+                
+                showForm(); // Show the form if the response message is 'SHOW FORM'
+                
+            });
+
+            userInput.addEventListener('keypress', (event) => {
+                if (event.key === 'Enter') {
+                    sendMessage();
+                }
+            });
+        // });
+    </script>
+</body>
+</html>
