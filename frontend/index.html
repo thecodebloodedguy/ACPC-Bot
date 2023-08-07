@@ -130,7 +130,7 @@
         branch: branchInput,
         category: categoryInput
       };
-      const ep="http://127.0.0.1:5000/predict/?course="+branchInput+"&category="+categoryInput+"&rank="+rankInput+"&mark="+marksInput+"";
+      const ep="https://551a-2409-4041-2e10-4c1b-4c47-9fc1-6166-ae96.ngrok-free.app//predict/?course="+branchInput+"&category="+categoryInput+"&rank="+rankInput+"&mark="+marksInput+"";
 
       // Send the data to the API endpoint using Fetch API
       fetch(ep, {
@@ -188,7 +188,7 @@
                         "user_br": 1,
                         "userMessage": userMessage
                     };
-                    const endpoint='https://79a4-2409-4041-2e10-4c1b-1ca5-e42f-1710-7a2e.ngrok-free.app/?user_br=1'+'&userMessage='+userMessage+''
+                    const endpoint='https://551a-2409-4041-2e10-4c1b-4c47-9fc1-6166-ae96.ngrok-free.app/?user_br=1'+'&userMessage='+userMessage+''
                     fetch(endpoint, {
                         method: 'POST',
                         headers: {
